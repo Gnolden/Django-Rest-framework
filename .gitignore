@@ -1,0 +1,24 @@
+# Ignore compiled Python files
+*.pyc
+__pycache__
+
+# Ignore the virtual environment directory
+venv/
+venv*/
+
+# Ignore the local settings file (if any)
+CRUDwithRest/settings_local.py
+
+# Ignore SQLite database file
+*.sqlite3
+
+# Ignore the staticfiles directory (if you're using collectstatic)
+staticfiles/
+
+# Ignore IDE and editor specific files
+.idea/
+.vscode/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
